@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    justify-content: center;
+}
+
+.container .row:last-child {
+    justify-content: flex-end;
+
+}
+
+.entity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inline-button {
+    padding: 0.5em;
+    border: thin black solid;
+    border-radius: 0.25em;
+}
+
+.remove-row {
+    padding: 0.5em;
+    border: thin black solid;
+    border-radius: 0.25em;
+}
