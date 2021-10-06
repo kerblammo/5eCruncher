@@ -30,7 +30,81 @@ class MonsterXPValues {
             case "5":
                 xp = 1800;
                 break;
-            //todo: cases 6 - 20+
+            case "6":
+                xp = 2300;
+                break;
+            case "7":
+                xp = 2900;
+                break;
+            case "8":
+                xp = 3900;
+                break;
+            case "9":
+                xp = 5000;
+                break;
+            case "10":
+                xp = 5900;
+                break;
+            case "11":
+                xp = 7200;
+                break;
+            case "12":
+                xp = 8400;
+                break;
+            case "13":
+                xp = 10000;
+                break;
+            case "14":
+                xp = 11500;
+                break;
+            case "15":
+                xp = 13000;
+                break;
+            case "16":
+                xp = 15000;
+                break;
+            case "17":
+                xp = 1800;
+                break;
+            case "18":
+                xp = 20000;
+                break;
+            case "19":
+                xp = 22000;
+                break;
+            case "20":
+                xp = 25000;
+                break;
+            case "21":
+                xp = 33000;
+                break;
+            case "22":
+                xp = 41000;
+                break;
+            case "23":
+                xp = 50000;
+                break;
+            case "24":
+                xp = 62000;
+                break;
+            case "25":
+                xp = 75000;
+                break;
+            case "26":
+                xp = 90000;
+                break;
+            case "27":
+                xp = 105000;
+                break;
+            case "28":
+                xp = 120000;
+                break;
+            case "29":
+                xp = 135000;
+                break;
+            case "30":
+                xp = 155000;
+                break;
         }
         return xp;
     }

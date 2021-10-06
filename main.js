@@ -105,7 +105,6 @@ function decreaseLevelClickHandler(e) {
                 case "1/8":
                     levelValue = 0;
                     break;
-                
             }
         } else {
             levelValue = parseInt(level.innerHTML, 10);
@@ -144,7 +143,12 @@ function increaseLevelClickHandler(e) {
             console.log("Does not currently support epic levels.")
             levelValue = 20;
         }
-    } 
+    }  else {
+        if (levelValue >= 30) {
+            console.log("Cannot increase challenge above 30");
+            levelValue = 30;
+        }
+    }
 
     level.innerHTML = levelValue;
     updateXPThresholdsAndValues()
