@@ -1,39 +1,97 @@
 body {
   margin: 0px;
   padding: 0px;
+  color: #1b1b1b;
+  background-color: #3d3d3d;
+}
+
+#app {
+  background-color: #ffebcd;
+  max-width: 600px;
+  margin: auto;
+}
+
+.header {
+  color: #f1f1f1;
+  background-color: #3d3d3d;
+  padding: 0.5em;
+}
+
+.header h1,
+h3 {
+  color: #f1f1f1;
+  margin: 0.25em 0.5em;
+}
+
+h1 {
+  color: #9b2a2a;
+  margin-left: 2em;
 }
 
 .container {
-  margin: auto;
-  width: 50%;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 600px;
 }
 
 .row {
   display: flex;
   gap: 10px;
   margin-left: 1em;
-  margin-top: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  background-color: #c3f0e8;
+}
+
+.container .row:first-child {
+  background-color: #9b2a2a;
+  color: #f1f1f1;
   justify-content: center;
+  border-radius: 0.25em 0.25em 0 0;
+}
+
+.row:nth-child(even) {
+  background-color: #b3e0d8;
 }
 
 .container .row:last-child {
-  justify-content: flex-end;
+  border-radius: 0 0 0.25em 0.25em;
 }
 
 .entity {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 30%;
 }
 
 .inline-button {
   padding: 0.5em;
   border: thin black solid;
   border-radius: 0.25em;
+  background-color: #eaeaea;
+}
+
+.inline-button:hover {
+  background-color: #c9c9c9;
+}
+
+.inline-button:active {
+  background-color: #a6a6a6;
+  border: thin #3d3d3d solid;
 }
 
 .remove-row {
   padding: 0.5em;
   border: thin black solid;
   border-radius: 0.25em;
+}
+
+#totals {
+  margin: 1em;
+}
+
+#difficulty div {
+  margin: 1em;
 }
